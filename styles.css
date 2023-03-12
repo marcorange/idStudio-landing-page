@@ -1,0 +1,44 @@
+body {
+    padding-top: 35.09px;
+    /* max-width: 414px; */
+    margin: auto;
+}
+
+h1 {
+    padding: 81px 1.85rem 12px;
+    /* margin: 0 ??? */
+    margin: 0; 
+
+    letter-spacing: 1.72px;
+    font-family: "BNChester";
+    font-size: 48px;
+    line-height: 48.91px;
+}
+
+p {
+    font-family: "Gilroy";
+    line-height: 27.2px;
+}
+
+/* TITLE */
+
+.title > p {
+    padding: 0 1.7rem;
+}
+
+.logo {   
+    padding: 0 30px 30px;
+    max-width: 136.47px;
+}
+
+/* FONTS */
+@font-face {
+    font-family: "BNChester";
+    src: url("fonts/BNChesterRegular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/GilroyRegular.woff") format('woff');
+}
+
