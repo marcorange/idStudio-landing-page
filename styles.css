@@ -5,9 +5,9 @@ body {
 }
 
 h1 {
-    padding: 81px 1.85rem 12px;
+    padding: 5rem 1.85rem 12px;
     /* margin: 0 ??? */
-    margin: 0; 
+    margin: 0;
 
     letter-spacing: 1.72px;
     font-family: "BNChester";
@@ -26,19 +26,36 @@ p {
     padding: 0 1.7rem;
 }
 
-.logo {   
+.logo {
     padding: 0 30px 30px;
     max-width: 136.47px;
+}
+
+.get-started {
+    margin: 1.6rem 1.75rem 2rem;
+    padding-left: 1px;
+    font-family: "GilroySemiBold";
+    font-size: 16px;
+    font-weight: 400;
+    width: 22rem;
+    height: 2.75rem;
+    background-color: white;
+    border-radius: 8px;
+    border: 2.5px solid #d3a265;
 }
 
 /* FONTS */
 @font-face {
     font-family: "BNChester";
-    src: url("fonts/BNChesterRegular.woff") format('woff');
+    src: url("fonts/BNChesterRegular.woff") format("woff");
 }
 
 @font-face {
     font-family: "Gilroy";
-    src: url("fonts/GilroyRegular.woff") format('woff');
+    src: url("fonts/GilroyRegular.woff") format("woff");
 }
 
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url("fonts/GilroySemiBold.woff") format("woff");
+}
