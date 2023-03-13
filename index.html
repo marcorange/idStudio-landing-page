@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="viewport"
+            content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
         <title>idStudio Alisa</title>
 
         <!-- FONTS -->
@@ -12,23 +15,62 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+        <!-- TITLE -->
         <section id="title">
-            <nav>
-                <a href="#title">
-                    <img src="design/logo.png" class="logo" />
-                </a>
-                <!-- <div class="hamburger"></div> -->
-            </nav>
-            <div class="title">
-                <h1 class="title-heading">We create your space better</h1>
-                <p>
-                    Our team creates comfortable spaces for our clients. We’ve
-                    been designing your everyday life and work through great
-                    ideas since 1999.
-                </p>
-                <button class="get-started">GET STARTED</button>
-                <img src="design/title-img.png" scr="title-img" />
+            <div class="container-title">
+                <nav>
+                    <a href="#title">
+                        <img src="design/logo.png" class="logo" />
+                    </a>
+                    <!-- <div class="hamburger"></div> -->
+                </nav>
+                <div class="title">
+                    <h1>We create your space better</h1>
+                    <p>
+                        Our team creates comfortable spaces for our clients.
+                        We’ve been designing your everyday life and work through
+                        great ideas since 1999.
+                    </p>
+                    <div class="button">
+                        <button>GET STARTED</button>
+                    </div>
+                    <img src="design/title-img.png" class="title-img" />
+                </div>
             </div>
+
+            <!-- ABOUT -->
+            <section id="about">
+                <div class="container about">
+                    <h2>About <span style="color: #d3a265">Studio</span></h2>
+                    <p>
+                        Interiart is an award-winning architecture and interior
+                        design practice based in NYC. We work internationally on
+                        projects of residential & commercial interior design
+                        that require a creative approach. Our talented and
+                        experienced designers leverage their knowledge and
+                        expertise to create unique and comfortable interiors for
+                        you.
+                    </p>
+                    <button>READ MORE</button>
+                </div>
+            </section>
+
+            <!-- SERVICES -->
+            <section id="services">
+                <div class="container services">
+                    <h2>Our <span style="color: #d3a265">Services</span></h2>
+                    <div class="cards">
+                        <div>
+                            <img src="design/interior-design.png">
+                            <h3>INTERIOR DESIGN</h3>
+                            <p>
+                                Interior design services offer a vast variety of solutions for our clients’ homes and offices.</p>
+                                <hr>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
         </section>
     </body>
 </html>
