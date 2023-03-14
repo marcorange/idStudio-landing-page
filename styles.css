@@ -30,7 +30,7 @@ p {
 }
 
 hr {
-    border: 0.05px solid #DCD1BB;
+    border: 0.05px solid #dcd1bb;
 }
 
 .container {
@@ -80,7 +80,7 @@ button {
 
 /* ABOUT */
 .about {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     bottom: 9px;
     padding-top: 37.25px;
 }
@@ -99,7 +99,7 @@ button {
     right: 5px;
     text-align: left;
     padding-bottom: 6px;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     text-decoration: underline;
     text-decoration-color: #d3a265;
     text-underline-offset: 4px;
@@ -112,6 +112,45 @@ button {
     background-color: white;
     bottom: 20px;
     text-align: center;
+}
+
+.services > h2 {
+    /* padding lacks responsiveness :( */
+    padding: 4px 0 0 33%;
+    max-width: 25%;
+    display: table;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.cards {
+    padding: 3px 6px;
+}
+
+.card > hr {
+    width: 347px;
+}
+
+.cards h3 {
+    font-family: "GilroySemiBold";
+    font-size: 16px;
+    padding-left: 4px;
+    padding-bottom: 18px;
+}
+
+.services-img {
+    max-width: 24%;
+    padding-left: 5px;
+    padding-bottom: 21px;
+}
+
+.card > p {
+    font-size: 16px;
+    line-height: 170%;
+    color: #8d8d8d;
+    max-width: 80%;
+    padding-left: 12%;
+    padding-bottom: 33px;
 }
 
 /* FONTS */
