@@ -129,28 +129,47 @@ button {
 
 .card > hr {
     width: 347px;
+    margin-bottom: 53px;
 }
 
 .cards h3 {
-    font-family: "GilroySemiBold";
+    font-family: "GilroyRegular";
     font-size: 16px;
-    padding-left: 4px;
+    padding-left: 7px;
     padding-bottom: 18px;
 }
 
-.services-img {
-    max-width: 24%;
-    padding-left: 5px;
-    padding-bottom: 21px;
-}
-
+/* how to set padding at every line <p>? */
 .card > p {
     font-size: 16px;
     line-height: 170%;
     color: #8d8d8d;
-    max-width: 80%;
-    padding-left: 12%;
+    max-width: 78%;
+    padding-left: 13%;
     padding-bottom: 33px;
+}
+
+.card > img {
+    padding-left: 5px;
+}
+
+.interior-design {
+    max-width: 24%;
+    padding-bottom: 21px;
+}
+
+.decorative-services {
+    max-width: 30%;
+    padding-bottom: 28px;
+}
+
+.space-planning {
+    padding-bottom: 24px;
+}
+
+.project-mgmt {
+    padding-left: 5px;
+    padding-bottom: 24px;
 }
 
 /* FONTS */
@@ -167,4 +186,9 @@ button {
 @font-face {
     font-family: "GilroySemiBold";
     src: url("fonts/GilroySemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GilroyRegular";
+    src: url("fonts/GilroyRegular.woff") format("woff");
 }
