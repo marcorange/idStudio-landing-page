@@ -37,17 +37,15 @@ hr {
 }
 
 /* BUTTONS */
-.btn {
-    text-align: center;
-    padding-right: 10px;
-}
 
 .get-started-btn {
+    position: relative;
+    left: 26px;
     color: black;
     font-family: "GilroySemiBold";
     font-size: 16px;
     font-weight: 400;
-    width: 87%;
+    width: 86%;
     height: 2.75rem;
     background-color: white;
     border-radius: 8px;
@@ -73,6 +71,7 @@ hr {
 
 /* TITLE */
 #title {
+    /* text-align: center; */
     padding-top: 35.09px;
 }
 
@@ -202,6 +201,7 @@ h2.services {
     padding-top: 1.16rem;
     padding-bottom: 2.25rem;
     gap: 7.1%;
+    justify-content: space-around;
 }
 
 .portfolio-navbar > ul {
@@ -215,9 +215,12 @@ h2.services {
 }
 
 #portfolio .more-button {
+    text-align: center;
     position: relative;
-    left: 39.5%;
-    padding-top: 3.1rem;
+    left: 1px;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 1.9rem;
 }
 
 /* FONTS */
