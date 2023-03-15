@@ -21,7 +21,7 @@ h2 {
 }
 
 p {
-    font-family: "Gilroy";
+    font-family: "Gilroy", Verdana, sans-serif;
     line-height: 27.2px;
     word-spacing: -0.45px;
 }
@@ -55,6 +55,7 @@ hr {
 }
 
 .more-button {
+    color: black;
     padding-top: 10px;
     padding-bottom: 18px;
     font-family: "GilroyMedium";
@@ -147,6 +148,7 @@ h2.services {
 /* is it possible to set padding at every line <p>? */
 .card > p {
     font-size: 16px;
+    text-align: center;
     line-height: 170%;
     color: #8d8d8d;
     max-width: 78%;
