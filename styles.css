@@ -1,6 +1,3 @@
-/* COLORS */
-/* #D3A265 */
-
 body {
     margin: 0 auto;
     /* remove later */
@@ -36,24 +33,41 @@ hr {
 .container {
     padding: 28px 30px 0;
     position: relative;
-}
-
-/* BUTTON */
-.button {
     text-align: center;
-    /* max-width: 27.5rem; set for bigger screens*/
 }
 
-button {
+/* BUTTONS */
+.btn {
+    text-align: center;
+    padding-right: 10px;
+}
+
+.get-started-btn {
     color: black;
     font-family: "GilroySemiBold";
     font-size: 16px;
     font-weight: 400;
-    width: 85%;
+    width: 87%;
     height: 2.75rem;
     background-color: white;
     border-radius: 8px;
     border: 2.5px solid #d3a265;
+}
+
+.more-button {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    font-family: "GilroyMedium";
+    font-size: 14px;
+    position: relative;
+    right: 5px;
+    text-align: left;
+    background-color: #f4f4f4;
+    text-decoration: underline;
+    text-decoration-color: #d3a265;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    border: none;
 }
 
 /* TITLE */
@@ -81,42 +95,31 @@ button {
 /* ABOUT */
 .about {
     background-color: #f4f4f4;
-    bottom: 9px;
+    bottom: 6px;
     padding-top: 37.25px;
+    padding-bottom: 1.4rem;
+    text-align: left;
 }
 
 .about > h2 {
     max-width: 100px;
-}
-
-.about > p {
-    padding-top: 3px;
-}
-
-.about > button {
-    font-size: 14px;
     position: relative;
-    right: 5px;
-    text-align: left;
-    padding-bottom: 6px;
-    background-color: #f4f4f4;
-    text-decoration: underline;
-    text-decoration-color: #d3a265;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 1px;
-    border: none;
+    bottom: 3px;
 }
 
 /* SERVICES */
-.services {
+#services > .container {
+    position: relative;
+    z-index: -1;
     background-color: white;
-    bottom: 20px;
     text-align: center;
+    padding-top: 21px;
 }
 
-.services > h2 {
-    /* padding lacks responsiveness :( */
-    padding: 4px 0 0 33%;
+h2.services {
+    position: relative;
+    left: 5px;
+    margin: 1.85rem auto 1.7rem auto;
     max-width: 25%;
     display: table;
     text-align: center;
@@ -124,29 +127,31 @@ button {
 }
 
 .cards {
-    padding: 3px 6px;
+    padding: 3px 6px 6px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card > hr {
-    width: 347px;
+    width: 100%;
     margin-bottom: 53px;
 }
 
 .cards h3 {
     font-family: "GilroyRegular";
     font-size: 16px;
-    padding-left: 7px;
+    padding-left: 5.5px;
     padding-bottom: 18px;
 }
 
-/* how to set padding at every line <p>? */
+/* is it possible to set padding at every line <p>? */
 .card > p {
     font-size: 16px;
     line-height: 170%;
     color: #8d8d8d;
     max-width: 78%;
-    padding-left: 13%;
-    padding-bottom: 33px;
+    padding-left: 12%;
+    padding-bottom: 35px;
 }
 
 .card > img {
@@ -160,16 +165,57 @@ button {
 
 .decorative-services {
     max-width: 30%;
-    padding-bottom: 28px;
+    padding-bottom: 27px;
 }
 
 .space-planning {
-    padding-bottom: 24px;
+    padding-bottom: 21px;
 }
 
 .project-mgmt {
-    padding-left: 5px;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
+}
+
+/* PORTFOLIO */
+#portfolio {
+    background-color: #f4f4f4;
+    position: relative;
+    z-index: 1;
+    bottom: 13px;
+    padding-bottom: 1.8rem;
+}
+
+.portfolio-h2 {
+    position: relative;
+    bottom: 6px;
+    left: 1px;
+    padding-bottom: 1px;
+}
+
+.portfolio-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "GilroyRegular";
+    font-size: 13px;
+    padding-top: 1.16rem;
+    padding-bottom: 2.25rem;
+    gap: 7.1%;
+}
+
+.portfolio-navbar > ul {
+    padding: 0;
+}
+
+.portfolio-pics {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#portfolio .more-button {
+    position: relative;
+    left: 39.5%;
+    padding-top: 3.1rem;
 }
 
 /* FONTS */
@@ -191,4 +237,9 @@ button {
 @font-face {
     font-family: "GilroyRegular";
     src: url("fonts/GilroyRegular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("fonts/GilroyMedium.woff") format("woff");
 }
